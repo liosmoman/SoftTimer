@@ -3,6 +3,8 @@
 A tiny neumorphic countdown timer for Windows. It runs as a compact always-on-top
 desktop widget instead of a browser tab.
 
+![SoftTimer](docs/screenshot.png)
+
 Built with [pywebview](https://pywebview.flowrl.com/), so the entire UI is HTML/CSS/JS
 rendered in a native window, and the whole app ships as a single Python file.
 
@@ -52,6 +54,7 @@ timer.py          entire application: sound synthesis, TimerAPI, HTML/CSS/JS UI
 SoftTimer.spec    PyInstaller build definition
 launch.bat        console-free launcher
 requirements.txt  runtime dependencies
+docs/             screenshots
 ```
 
 ## How the sounds work
